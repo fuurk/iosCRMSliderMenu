@@ -109,6 +109,7 @@ class DepartmentIntroductionViewController: BaseViewController {
         let rightSwipe = UISwipeGestureRecognizer(target: self, action: #selector(self.backGesture(sender:)))
         rightSwipe.direction = .right
         view.addGestureRecognizer(rightSwipe)
+        //for initial commit
     }
     
     @objc func backGesture(sender:UISwipeGestureRecognizer?) {
