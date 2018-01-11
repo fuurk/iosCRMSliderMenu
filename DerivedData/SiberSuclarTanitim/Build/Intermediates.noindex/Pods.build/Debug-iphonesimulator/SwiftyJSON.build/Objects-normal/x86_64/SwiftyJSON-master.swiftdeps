@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.72 clang-900.0.38)"
+options: "ab348e956b9d3cfffbc5cf59e0470b65"
+build_time: [1514882311, 148436000]
+inputs:
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1512546157, 0]

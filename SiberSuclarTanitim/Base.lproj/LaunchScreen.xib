@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="bhQ-CL-Spl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="siber1" translatesAutoresizingMaskIntoConstraints="NO" id="uh0-46-DIy">
+                    <rect key="frame" x="67" y="242" width="240" height="182"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siber Suçlarla Mücadele Daire Başkanlığı" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFT-vM-GSN">
+                    <rect key="frame" x="12" y="65" width="351" height="67"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tFT-vM-GSN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="2xj-I7-feu"/>
+                <constraint firstAttribute="trailing" secondItem="tFT-vM-GSN" secondAttribute="trailing" constant="12" id="4nq-ur-hRq"/>
+                <constraint firstItem="uh0-46-DIy" firstAttribute="top" secondItem="tFT-vM-GSN" secondAttribute="bottom" constant="110" id="68O-mB-4fn"/>
+                <constraint firstItem="tFT-vM-GSN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="6HA-C6-dYz"/>
+                <constraint firstItem="uh0-46-DIy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="67" id="DKG-0M-1Y7"/>
+                <constraint firstAttribute="trailing" secondItem="uh0-46-DIy" secondAttribute="trailing" constant="68" id="OhS-Cb-jEM"/>
+                <constraint firstItem="bhQ-CL-Spl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PY3-ep-4xi"/>
+                <constraint firstItem="bhQ-CL-Spl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dNv-Uf-6Vc"/>
+                <constraint firstAttribute="bottom" secondItem="uh0-46-DIy" secondAttribute="bottom" constant="243" id="ip1-r0-kWf"/>
+                <constraint firstItem="uh0-46-DIy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="242" id="rJ3-ys-cKG"/>
+                <constraint firstAttribute="trailing" secondItem="bhQ-CL-Spl" secondAttribute="trailing" id="tlz-Hq-ddn"/>
+                <constraint firstAttribute="bottom" secondItem="bhQ-CL-Spl" secondAttribute="bottom" id="v5h-oM-hph"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="628.5" y="265.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg" width="480" height="800"/>
+        <image name="siber1" width="200" height="204"/>
+    </resources>
+</document>

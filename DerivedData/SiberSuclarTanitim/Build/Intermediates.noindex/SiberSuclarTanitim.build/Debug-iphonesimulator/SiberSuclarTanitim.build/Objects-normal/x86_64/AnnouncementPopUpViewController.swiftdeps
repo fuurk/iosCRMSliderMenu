@@ -1,0 +1,686 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnnouncementPopUpViewController"
+provides-nominal:
+- "18SiberSuclarTanitim31AnnouncementPopUpViewControllerC"
+provides-member:
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", ""]
+provides-dynamic-lookup:
+- "announcementTextLabel"
+- "announcementTitleLabel"
+- "didReceiveMemoryWarning"
+- "exitButton"
+- "popUpView"
+- "viewDidLoad"
+depends-top-level:
+- "AnnouncementPopUpViewController"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "String"
+- "StringLiteralType"
+- !private "UIBlurEffect"
+- !private "UIColor"
+- "UILabel"
+- "UITextView"
+- "UIView"
+- !private "UIVisualEffectView"
+depends-member:
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "AnyObject"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "String"]
+- !private ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "UIBlurEffect"]
+- !private ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "UIColor"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "UILabel"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "UITextView"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "UIView"]
+- !private ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "UIVisualEffectView"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "announcementText"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "announcementTextLabel"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "announcementTitle"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "announcementTitleLabel"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "deinit"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "didReceiveMemoryWarning"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "exitButton"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "init"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "popUpView"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "setTexts"]
+- !private ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "view"]
+- ["18SiberSuclarTanitim31AnnouncementPopUpViewControllerC", "viewDidLoad"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "AnyObject"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "String"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "UIBlurEffect"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "UIColor"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "UILabel"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "UITextView"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "UIView"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "UIVisualEffectView"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "announcementText"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "announcementTextLabel"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "announcementTitle"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "announcementTitleLabel"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "didReceiveMemoryWarning"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "exitButton"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "init"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "popUpView"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "setTexts"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "view"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "viewDidLoad"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", ""]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "insertSubview"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UIBlurEffect"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIVisualEffectView"]
+- !private ["s7CVarArgP", "announcementText"]
+- !private ["s7CVarArgP", "announcementTextLabel"]
+- !private ["s7CVarArgP", "announcementTitle"]
+- !private ["s7CVarArgP", "announcementTitleLabel"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertSubview"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "setTexts"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBlurEffect"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIVisualEffectView"]
+- !private ["s28CustomDebugStringConvertibleP", "announcementText"]
+- !private ["s28CustomDebugStringConvertibleP", "announcementTextLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "announcementTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "announcementTitleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "setTexts"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UIBlurEffect"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIVisualEffectView"]
+- !private ["s23CustomStringConvertibleP", "announcementText"]
+- !private ["s23CustomStringConvertibleP", "announcementTextLabel"]
+- !private ["s23CustomStringConvertibleP", "announcementTitle"]
+- !private ["s23CustomStringConvertibleP", "announcementTitleLabel"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertSubview"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "setTexts"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "UIBlurEffect"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIVisualEffectView"]
+- !private ["s9EquatableP", "announcementText"]
+- !private ["s9EquatableP", "announcementTextLabel"]
+- !private ["s9EquatableP", "announcementTitle"]
+- !private ["s9EquatableP", "announcementTitleLabel"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "extraLight"]
+- !private ["s9EquatableP", "frame"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "insertSubview"]
+- !private ["s9EquatableP", "removeFromSuperview"]
+- !private ["s9EquatableP", "setTexts"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "UIBlurEffect"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIVisualEffectView"]
+- !private ["s8HashableP", "announcementText"]
+- !private ["s8HashableP", "announcementTextLabel"]
+- !private ["s8HashableP", "announcementTitle"]
+- !private ["s8HashableP", "announcementTitleLabel"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "extraLight"]
+- !private ["s8HashableP", "frame"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "insertSubview"]
+- !private ["s8HashableP", "removeFromSuperview"]
+- !private ["s8HashableP", "setTexts"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "UIBlurEffect"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIVisualEffectView"]
+- !private ["So8NSCodingP", "announcementText"]
+- !private ["So8NSCodingP", "announcementTextLabel"]
+- !private ["So8NSCodingP", "announcementTitle"]
+- !private ["So8NSCodingP", "announcementTitleLabel"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "insertSubview"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "setTexts"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "clear"]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBlurEffect"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UIVisualEffectView"]
+- !private ["So26NSExtensionRequestHandlingP", "announcementText"]
+- !private ["So26NSExtensionRequestHandlingP", "announcementTextLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "announcementTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "announcementTitleLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "setTexts"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIBlurEffect"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "UIVisualEffectView"]
+- ["So8NSObjectC", "announcementText"]
+- ["So8NSObjectC", "announcementTextLabel"]
+- ["So8NSObjectC", "announcementTitle"]
+- ["So8NSObjectC", "announcementTitleLabel"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "exitButton"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertSubview"]
+- ["So8NSObjectC", "popUpView"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- ["So8NSObjectC", "setTexts"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "UIBlurEffect"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIVisualEffectView"]
+- !private ["So16NSObjectProtocolP", "announcementText"]
+- !private ["So16NSObjectProtocolP", "announcementTextLabel"]
+- !private ["So16NSObjectProtocolP", "announcementTitle"]
+- !private ["So16NSObjectProtocolP", "announcementTitleLabel"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "insertSubview"]
+- !private ["So16NSObjectProtocolP", "removeFromSuperview"]
+- !private ["So16NSObjectProtocolP", "setTexts"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "frame"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "extraLight"]
+- ["s8SequenceP", "init"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "UIBlurEffect"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "UIColor"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "UIVisualEffectView"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "announcementText"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "announcementTextLabel"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "announcementTitle"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "announcementTitleLabel"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "didReceiveMemoryWarning"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "init"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "setTexts"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "view"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "viewDidLoad"]
+- ["18SiberSuclarTanitim17SlideMenuDelegateP", ""]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "insertSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "insertSubview"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UIBlurEffect"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIVisualEffectView"]
+- !private ["So21UIAppearanceContainerP", "announcementText"]
+- !private ["So21UIAppearanceContainerP", "announcementTextLabel"]
+- !private ["So21UIAppearanceContainerP", "announcementTitle"]
+- !private ["So21UIAppearanceContainerP", "announcementTitleLabel"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "insertSubview"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "setTexts"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So12UIBlurEffectC", "init"]
+- !private ["SC17UIBlurEffectStyleO", "extraLight"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So18UIContentContainerP", "UIBlurEffect"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UIVisualEffectView"]
+- !private ["So18UIContentContainerP", "announcementText"]
+- !private ["So18UIContentContainerP", "announcementTextLabel"]
+- !private ["So18UIContentContainerP", "announcementTitle"]
+- !private ["So18UIContentContainerP", "announcementTitleLabel"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "setTexts"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "insertSubview"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "insertSubview"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UIBlurEffect"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIVisualEffectView"]
+- !private ["So18UIFocusEnvironmentP", "announcementText"]
+- !private ["So18UIFocusEnvironmentP", "announcementTextLabel"]
+- !private ["So18UIFocusEnvironmentP", "announcementTitle"]
+- !private ["So18UIFocusEnvironmentP", "announcementTitleLabel"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "insertSubview"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "setTexts"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "insertSubview"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBlurEffect"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIVisualEffectView"]
+- !private ["So30UIPasteConfigurationSupportingP", "announcementText"]
+- !private ["So30UIPasteConfigurationSupportingP", "announcementTextLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "announcementTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "announcementTitleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "insertSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTexts"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AnyObject"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIBlurEffect"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "UIVisualEffectView"]
+- ["So11UIResponderC", "announcementText"]
+- ["So11UIResponderC", "announcementTextLabel"]
+- ["So11UIResponderC", "announcementTitle"]
+- ["So11UIResponderC", "announcementTitleLabel"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "exitButton"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "insertSubview"]
+- ["So11UIResponderC", "popUpView"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- ["So11UIResponderC", "setTexts"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBlurEffect"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIVisualEffectView"]
+- !private ["So30UIResponderStandardEditActionsP", "announcementText"]
+- !private ["So30UIResponderStandardEditActionsP", "announcementTextLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "announcementTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "announcementTitleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "insertSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "setTexts"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So16UIStateRestoringP", "UIBlurEffect"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UIVisualEffectView"]
+- !private ["So16UIStateRestoringP", "announcementText"]
+- !private ["So16UIStateRestoringP", "announcementTextLabel"]
+- !private ["So16UIStateRestoringP", "announcementTitle"]
+- !private ["So16UIStateRestoringP", "announcementTitleLabel"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "setTexts"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "UIBlurEffect"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIVisualEffectView"]
+- !private ["So18UITraitEnvironmentP", "announcementText"]
+- !private ["So18UITraitEnvironmentP", "announcementTextLabel"]
+- !private ["So18UITraitEnvironmentP", "announcementTitle"]
+- !private ["So18UITraitEnvironmentP", "announcementTitleLabel"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "insertSubview"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "setTexts"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "insertSubview"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AnyObject"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIBlurEffect"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", "UIView"]
+- !private ["So16UIViewControllerC", "UIVisualEffectView"]
+- ["So16UIViewControllerC", "announcementText"]
+- ["So16UIViewControllerC", "announcementTextLabel"]
+- ["So16UIViewControllerC", "announcementTitle"]
+- ["So16UIViewControllerC", "announcementTitleLabel"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "exitButton"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "popUpView"]
+- ["So16UIViewControllerC", "setTexts"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So14UIVisualEffectC", "init"]
+- !private ["So18UIVisualEffectViewC", "frame"]
+- !private ["So18UIVisualEffectViewC", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "insertSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBlurEffect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIVisualEffectView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "announcementText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "announcementTextLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "announcementTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "announcementTitleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTexts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "18SiberSuclarTanitim31AnnouncementPopUpViewControllerC"
+- "18SiberSuclarTanitim18BaseViewControllerC"
+- "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "s8SequenceP"
+- "18SiberSuclarTanitim17SlideMenuDelegateP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So12UIBlurEffectC"
+- !private "SC17UIBlurEffectStyleO"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So14UIVisualEffectC"
+- !private "So18UIVisualEffectViewC"
+- "9Alamofire14URLConvertibleP"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarAppearance.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarScopeHandle.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCell.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDynamicHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarStickyHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCalculator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarTransitionCoordinator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarExtensions.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarConstants.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionViewLayout.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarHeaderView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarWeekdayView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationFactory.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationProxy.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7abb56648d0a00908f1517e88adef1f3"

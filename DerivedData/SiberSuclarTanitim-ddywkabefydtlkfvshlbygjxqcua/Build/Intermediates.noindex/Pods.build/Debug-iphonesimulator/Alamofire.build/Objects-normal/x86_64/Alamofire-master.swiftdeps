@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.72 clang-900.0.38)"
+options: "8d7d1e68a765d506ed35661945aa397f"
+build_time: [1514205617, 80284000]
+inputs:
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/AFError.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/Alamofire.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/MultipartFormData.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/Notifications.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/ParameterEncoding.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/Request.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/Response.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/ResponseSerialization.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/Result.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/SessionDelegate.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/SessionManager.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/TaskDelegate.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/Timeline.swift": [1512545838, 0]
+  "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/Pods/Alamofire/Source/Validation.swift": [1512545838, 0]

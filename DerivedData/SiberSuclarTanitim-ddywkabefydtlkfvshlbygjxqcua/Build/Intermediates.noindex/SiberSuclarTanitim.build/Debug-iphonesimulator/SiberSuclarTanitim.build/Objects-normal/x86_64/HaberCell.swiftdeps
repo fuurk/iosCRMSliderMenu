@@ -1,0 +1,495 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HaberCell"
+provides-nominal:
+- "18SiberSuclarTanitim9HaberCellC"
+provides-member:
+- ["18SiberSuclarTanitim9HaberCellC", ""]
+provides-dynamic-lookup:
+- "haberImage"
+- "haberLabel"
+- "preferredLayoutAttributesFitting"
+depends-top-level:
+- "AssignmentPrecedence"
+- "HaberCell"
+- "Int"
+- "String"
+- "UICollectionViewCell"
+- "UICollectionViewLayoutAttributes"
+- "UIImage"
+- "UIImageView"
+- "UILabel"
+- !private "ceil"
+depends-member:
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "ceil"]
+- !private ["So15CALayerDelegateP", "contentView"]
+- !private ["So15CALayerDelegateP", "haberImage"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layoutIfNeeded"]
+- !private ["So15CALayerDelegateP", "setNeedsDisplay"]
+- !private ["So15CALayerDelegateP", "setNeedsLayout"]
+- !private ["So15CALayerDelegateP", "systemLayoutSizeFitting"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "ceil"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "haberImage"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layoutIfNeeded"]
+- !private ["s7CVarArgP", "setNeedsDisplay"]
+- !private ["s7CVarArgP", "setNeedsLayout"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "systemLayoutSizeFitting"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "ceil"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "haberImage"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutIfNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "setNeedsDisplay"]
+- !private ["s28CustomDebugStringConvertibleP", "setNeedsLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "systemLayoutSizeFitting"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "ceil"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "haberImage"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layoutIfNeeded"]
+- !private ["s23CustomStringConvertibleP", "setNeedsDisplay"]
+- !private ["s23CustomStringConvertibleP", "setNeedsLayout"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "systemLayoutSizeFitting"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "ceil"]
+- !private ["s9EquatableP", "contentView"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "haberImage"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layoutIfNeeded"]
+- !private ["s9EquatableP", "setNeedsDisplay"]
+- !private ["s9EquatableP", "setNeedsLayout"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "systemLayoutSizeFitting"]
+- ["s9EquatableP", ""]
+- ["18SiberSuclarTanitim9HaberCellC", "Int"]
+- ["18SiberSuclarTanitim9HaberCellC", "String"]
+- ["18SiberSuclarTanitim9HaberCellC", "UICollectionViewLayoutAttributes"]
+- ["18SiberSuclarTanitim9HaberCellC", "UIImage"]
+- ["18SiberSuclarTanitim9HaberCellC", "UIImageView"]
+- ["18SiberSuclarTanitim9HaberCellC", "UILabel"]
+- !private ["18SiberSuclarTanitim9HaberCellC", "ceil"]
+- !private ["18SiberSuclarTanitim9HaberCellC", "contentView"]
+- ["18SiberSuclarTanitim9HaberCellC", "deinit"]
+- ["18SiberSuclarTanitim9HaberCellC", "haberImage"]
+- ["18SiberSuclarTanitim9HaberCellC", "haberLabel"]
+- ["18SiberSuclarTanitim9HaberCellC", "id"]
+- ["18SiberSuclarTanitim9HaberCellC", "init"]
+- !private ["18SiberSuclarTanitim9HaberCellC", "layoutIfNeeded"]
+- ["18SiberSuclarTanitim9HaberCellC", "preferredLayoutAttributesFitting"]
+- ["18SiberSuclarTanitim9HaberCellC", "setImage"]
+- ["18SiberSuclarTanitim9HaberCellC", "setImageReal"]
+- !private ["18SiberSuclarTanitim9HaberCellC", "setNeedsLayout"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "ceil"]
+- !private ["s8HashableP", "contentView"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "haberImage"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layoutIfNeeded"]
+- !private ["s8HashableP", "setNeedsDisplay"]
+- !private ["s8HashableP", "setNeedsLayout"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "systemLayoutSizeFitting"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "ceil"]
+- !private ["So8NSCodingP", "contentView"]
+- !private ["So8NSCodingP", "haberImage"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layoutIfNeeded"]
+- !private ["So8NSCodingP", "setNeedsDisplay"]
+- !private ["So8NSCodingP", "setNeedsLayout"]
+- !private ["So8NSCodingP", "systemLayoutSizeFitting"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "frame"]
+- !private ["So9NSCopyingP", "size"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UICollectionViewLayoutAttributes"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "ceil"]
+- !private ["So8NSObjectC", "contentView"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "haberImage"]
+- ["So8NSObjectC", "haberLabel"]
+- ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layoutIfNeeded"]
+- ["So8NSObjectC", "preferredLayoutAttributesFitting"]
+- ["So8NSObjectC", "setImage"]
+- ["So8NSObjectC", "setImageReal"]
+- !private ["So8NSObjectC", "setNeedsDisplay"]
+- !private ["So8NSObjectC", "setNeedsLayout"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "systemLayoutSizeFitting"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "ceil"]
+- !private ["So16NSObjectProtocolP", "contentView"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "haberImage"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layoutIfNeeded"]
+- !private ["So16NSObjectProtocolP", "setNeedsDisplay"]
+- !private ["So16NSObjectProtocolP", "setNeedsLayout"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So16NSObjectProtocolP", "systemLayoutSizeFitting"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setNeedsDisplay"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "ceil"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- !private ["So29UIAccessibilityIdentificationP", "haberImage"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutIfNeeded"]
+- !private ["So29UIAccessibilityIdentificationP", "setNeedsDisplay"]
+- !private ["So29UIAccessibilityIdentificationP", "setNeedsLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "systemLayoutSizeFitting"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "ceil"]
+- !private ["So12UIAppearanceP", "contentView"]
+- !private ["So12UIAppearanceP", "haberImage"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layoutIfNeeded"]
+- !private ["So12UIAppearanceP", "setNeedsDisplay"]
+- !private ["So12UIAppearanceP", "setNeedsLayout"]
+- !private ["So12UIAppearanceP", "systemLayoutSizeFitting"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "ceil"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- !private ["So21UIAppearanceContainerP", "haberImage"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layoutIfNeeded"]
+- !private ["So21UIAppearanceContainerP", "setNeedsDisplay"]
+- !private ["So21UIAppearanceContainerP", "setNeedsLayout"]
+- !private ["So21UIAppearanceContainerP", "systemLayoutSizeFitting"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So24UICollectionReusableViewC", "Int"]
+- ["So24UICollectionReusableViewC", "String"]
+- ["So24UICollectionReusableViewC", "UICollectionViewLayoutAttributes"]
+- ["So24UICollectionReusableViewC", "UIImage"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- !private ["So24UICollectionReusableViewC", "ceil"]
+- !private ["So24UICollectionReusableViewC", "contentView"]
+- ["So24UICollectionReusableViewC", "haberImage"]
+- ["So24UICollectionReusableViewC", "haberLabel"]
+- ["So24UICollectionReusableViewC", "id"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "layoutIfNeeded"]
+- ["So24UICollectionReusableViewC", "preferredLayoutAttributesFitting"]
+- ["So24UICollectionReusableViewC", "setImage"]
+- ["So24UICollectionReusableViewC", "setImageReal"]
+- !private ["So24UICollectionReusableViewC", "setNeedsLayout"]
+- ["So20UICollectionViewCellC", "Int"]
+- ["So20UICollectionViewCellC", "String"]
+- ["So20UICollectionViewCellC", "UICollectionViewLayoutAttributes"]
+- ["So20UICollectionViewCellC", "UIImage"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "UILabel"]
+- !private ["So20UICollectionViewCellC", "ceil"]
+- !private ["So20UICollectionViewCellC", "contentView"]
+- ["So20UICollectionViewCellC", "haberImage"]
+- ["So20UICollectionViewCellC", "haberLabel"]
+- ["So20UICollectionViewCellC", "id"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So20UICollectionViewCellC", "layoutIfNeeded"]
+- ["So20UICollectionViewCellC", "preferredLayoutAttributesFitting"]
+- ["So20UICollectionViewCellC", "setImage"]
+- ["So20UICollectionViewCellC", "setImageReal"]
+- !private ["So20UICollectionViewCellC", "setNeedsLayout"]
+- ["So20UICollectionViewCellC", ""]
+- !private ["So32UICollectionViewLayoutAttributesC", "frame"]
+- !private ["So32UICollectionViewLayoutAttributesC", "size"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "ceil"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- !private ["So17UICoordinateSpaceP", "haberImage"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layoutIfNeeded"]
+- !private ["So17UICoordinateSpaceP", "setNeedsDisplay"]
+- !private ["So17UICoordinateSpaceP", "setNeedsLayout"]
+- !private ["So17UICoordinateSpaceP", "systemLayoutSizeFitting"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "ceil"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "haberImage"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layoutIfNeeded"]
+- !private ["So13UIDynamicItemP", "setNeedsDisplay"]
+- !private ["So13UIDynamicItemP", "setNeedsLayout"]
+- !private ["So13UIDynamicItemP", "size"]
+- !private ["So13UIDynamicItemP", "systemLayoutSizeFitting"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "ceil"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- !private ["So18UIFocusEnvironmentP", "haberImage"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layoutIfNeeded"]
+- !private ["So18UIFocusEnvironmentP", "setNeedsDisplay"]
+- !private ["So18UIFocusEnvironmentP", "setNeedsLayout"]
+- !private ["So18UIFocusEnvironmentP", "systemLayoutSizeFitting"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "ceil"]
+- !private ["So11UIFocusItemP", "contentView"]
+- !private ["So11UIFocusItemP", "haberImage"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layoutIfNeeded"]
+- !private ["So11UIFocusItemP", "setNeedsDisplay"]
+- !private ["So11UIFocusItemP", "setNeedsLayout"]
+- !private ["So11UIFocusItemP", "systemLayoutSizeFitting"]
+- ["So11UIFocusItemP", ""]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "setNeedsDisplay"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "ceil"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "haberImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutIfNeeded"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNeedsDisplay"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNeedsLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "systemLayoutSizeFitting"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UICollectionViewLayoutAttributes"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "ceil"]
+- !private ["So11UIResponderC", "contentView"]
+- ["So11UIResponderC", "haberImage"]
+- ["So11UIResponderC", "haberLabel"]
+- ["So11UIResponderC", "id"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layoutIfNeeded"]
+- ["So11UIResponderC", "preferredLayoutAttributesFitting"]
+- ["So11UIResponderC", "setImage"]
+- ["So11UIResponderC", "setImageReal"]
+- !private ["So11UIResponderC", "setNeedsDisplay"]
+- !private ["So11UIResponderC", "setNeedsLayout"]
+- !private ["So11UIResponderC", "systemLayoutSizeFitting"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "ceil"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- !private ["So30UIResponderStandardEditActionsP", "haberImage"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutIfNeeded"]
+- !private ["So30UIResponderStandardEditActionsP", "setNeedsDisplay"]
+- !private ["So30UIResponderStandardEditActionsP", "setNeedsLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "systemLayoutSizeFitting"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "ceil"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- !private ["So18UITraitEnvironmentP", "haberImage"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layoutIfNeeded"]
+- !private ["So18UITraitEnvironmentP", "setNeedsDisplay"]
+- !private ["So18UITraitEnvironmentP", "setNeedsLayout"]
+- !private ["So18UITraitEnvironmentP", "systemLayoutSizeFitting"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UICollectionViewLayoutAttributes"]
+- ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "ceil"]
+- !private ["So6UIViewC", "contentView"]
+- ["So6UIViewC", "haberImage"]
+- ["So6UIViewC", "haberLabel"]
+- ["So6UIViewC", "id"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layoutIfNeeded"]
+- ["So6UIViewC", "preferredLayoutAttributesFitting"]
+- ["So6UIViewC", "setImage"]
+- ["So6UIViewC", "setImageReal"]
+- !private ["So6UIViewC", "setNeedsDisplay"]
+- !private ["So6UIViewC", "setNeedsLayout"]
+- !private ["So6UIViewC", "systemLayoutSizeFitting"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ceil"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "haberImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutIfNeeded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setNeedsDisplay"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setNeedsLayout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "systemLayoutSizeFitting"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ceil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "haberImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutIfNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNeedsDisplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNeedsLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemLayoutSizeFitting"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "18SiberSuclarTanitim9HaberCellC"
+- "s8HashableP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- !private "So32UICollectionViewLayoutAttributesC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarAppearance.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarScopeHandle.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCell.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDynamicHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarStickyHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCalculator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarTransitionCoordinator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarExtensions.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarConstants.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionViewLayout.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarHeaderView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarWeekdayView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationFactory.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationProxy.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim-ddywkabefydtlkfvshlbygjxqcua/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+interface-hash: "56e94f59d6f051893cc68f4ef24a5c79"

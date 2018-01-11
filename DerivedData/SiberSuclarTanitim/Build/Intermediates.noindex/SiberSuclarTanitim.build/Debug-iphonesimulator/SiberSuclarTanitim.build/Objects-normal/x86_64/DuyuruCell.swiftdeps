@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DuyuruCell"
+provides-nominal:
+- "18SiberSuclarTanitim10DuyuruCellC"
+provides-member:
+- ["18SiberSuclarTanitim10DuyuruCellC", ""]
+provides-dynamic-lookup:
+- "duyuruLabel"
+depends-top-level:
+- "DuyuruCell"
+- "String"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- !private ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["18SiberSuclarTanitim10DuyuruCellC", "String"]
+- ["18SiberSuclarTanitim10DuyuruCellC", "UILabel"]
+- ["18SiberSuclarTanitim10DuyuruCellC", "date"]
+- ["18SiberSuclarTanitim10DuyuruCellC", "deinit"]
+- ["18SiberSuclarTanitim10DuyuruCellC", "detailText"]
+- ["18SiberSuclarTanitim10DuyuruCellC", "duyuruLabel"]
+- ["18SiberSuclarTanitim10DuyuruCellC", "init"]
+- ["18SiberSuclarTanitim10DuyuruCellC", "title"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "detailText"]
+- ["So8NSObjectC", "duyuruLabel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "title"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "date"]
+- ["So11UIResponderC", "detailText"]
+- ["So11UIResponderC", "duyuruLabel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "date"]
+- ["So15UITableViewCellC", "detailText"]
+- ["So15UITableViewCellC", "duyuruLabel"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "title"]
+- ["So15UITableViewCellC", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "date"]
+- ["So6UIViewC", "detailText"]
+- ["So6UIViewC", "duyuruLabel"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "title"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "18SiberSuclarTanitim10DuyuruCellC"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarAppearance.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarScopeHandle.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCell.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDynamicHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarStickyHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCalculator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarTransitionCoordinator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarExtensions.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarConstants.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionViewLayout.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarHeaderView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarWeekdayView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationFactory.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationProxy.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+interface-hash: "ad944cf0b6426a78a36df711282e72c6"

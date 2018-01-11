@@ -1,0 +1,882 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EgitimLocationViewController"
+provides-nominal:
+- "18SiberSuclarTanitim28EgitimLocationViewControllerC"
+provides-member:
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "webView"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "BaseViewController"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- "EgitimLocationViewController"
+- "Error"
+- "String"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "URLRequest"
+- "WKNavigation"
+- "WKNavigationDelegate"
+- "WKUIDelegate"
+- "WKWebView"
+- !private "WKWebViewConfiguration"
+depends-member:
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "CGRect"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "Error"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "String"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "URL"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "URLRequest"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "WKNavigation"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "WKWebView"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "WKWebViewConfiguration"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "didReceiveMemoryWarning"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "hideActivityIndicator"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "init"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "locationUrl"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "populateWebView"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "setupWebViewLayout"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "showActivityIndicator"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "showAlert"]
+- !private ["18SiberSuclarTanitim18BaseViewControllerC", "view"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "viewDidLoad"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "webView"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "webViewDidClose"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", "webViewWebContentProcessDidTerminate"]
+- ["18SiberSuclarTanitim18BaseViewControllerC", ""]
+- !private ["s23BidirectionalCollectionP", "addingPercentEncoding"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "heightAnchor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "load"]
+- !private ["So15CALayerDelegateP", "navigationDelegate"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So15CALayerDelegateP", "widthAnchor"]
+- !private ["SC6CGRectV", "init"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- !private ["s7CVarArgP", "WKWebView"]
+- !private ["s7CVarArgP", "WKWebViewConfiguration"]
+- !private ["s7CVarArgP", "addingPercentEncoding"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "heightAnchor"]
+- !private ["s7CVarArgP", "hideActivityIndicator"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isActive"]
+- !private ["s7CVarArgP", "load"]
+- !private ["s7CVarArgP", "locationUrl"]
+- !private ["s7CVarArgP", "navigationDelegate"]
+- !private ["s7CVarArgP", "populateWebView"]
+- !private ["s7CVarArgP", "showActivityIndicator"]
+- !private ["s7CVarArgP", "showAlert"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "webView"]
+- ["s7CVarArgP", "webViewDidClose"]
+- ["s7CVarArgP", "webViewWebContentProcessDidTerminate"]
+- !private ["s7CVarArgP", "widthAnchor"]
+- ["s7CVarArgP", ""]
+- !private ["10Foundation12CharacterSetV", "urlQueryAllowed"]
+- !private ["s10CollectionP", "addingPercentEncoding"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "addingPercentEncoding"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "WKWebView"]
+- !private ["s28CustomDebugStringConvertibleP", "WKWebViewConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "hideActivityIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isActive"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "locationUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "populateWebView"]
+- !private ["s28CustomDebugStringConvertibleP", "showActivityIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "showAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "urlQueryAllowed"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "webView"]
+- ["s28CustomDebugStringConvertibleP", "webViewDidClose"]
+- ["s28CustomDebugStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "widthAnchor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingPercentEncoding"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- !private ["s23CustomStringConvertibleP", "WKWebView"]
+- !private ["s23CustomStringConvertibleP", "WKWebViewConfiguration"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "heightAnchor"]
+- !private ["s23CustomStringConvertibleP", "hideActivityIndicator"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isActive"]
+- !private ["s23CustomStringConvertibleP", "load"]
+- !private ["s23CustomStringConvertibleP", "locationUrl"]
+- !private ["s23CustomStringConvertibleP", "navigationDelegate"]
+- !private ["s23CustomStringConvertibleP", "populateWebView"]
+- !private ["s23CustomStringConvertibleP", "showActivityIndicator"]
+- !private ["s23CustomStringConvertibleP", "showAlert"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "urlQueryAllowed"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "webView"]
+- ["s23CustomStringConvertibleP", "webViewDidClose"]
+- ["s23CustomStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- !private ["s23CustomStringConvertibleP", "widthAnchor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "addingPercentEncoding"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "urlQueryAllowed"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "CGRect"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "Error"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "String"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "URL"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "URLRequest"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "WKNavigation"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "WKWebView"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "WKWebViewConfiguration"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "deinit"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "didReceiveMemoryWarning"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "hideActivityIndicator"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "init"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "locationUrl"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "populateWebView"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "setupWebViewLayout"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "showActivityIndicator"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "showAlert"]
+- !private ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "view"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "viewDidLoad"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "webView"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "webViewDidClose"]
+- ["18SiberSuclarTanitim28EgitimLocationViewControllerC", "webViewWebContentProcessDidTerminate"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "addingPercentEncoding"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "urlQueryAllowed"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "URLRequest"]
+- !private ["s9EquatableP", "WKWebView"]
+- !private ["s9EquatableP", "WKWebViewConfiguration"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addingPercentEncoding"]
+- !private ["s9EquatableP", "constraint"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "heightAnchor"]
+- !private ["s9EquatableP", "hideActivityIndicator"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isActive"]
+- !private ["s9EquatableP", "load"]
+- !private ["s9EquatableP", "locationUrl"]
+- !private ["s9EquatableP", "navigationDelegate"]
+- !private ["s9EquatableP", "populateWebView"]
+- !private ["s9EquatableP", "showActivityIndicator"]
+- !private ["s9EquatableP", "showAlert"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EquatableP", "urlQueryAllowed"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", "webView"]
+- ["s9EquatableP", "webViewDidClose"]
+- ["s9EquatableP", "webViewWebContentProcessDidTerminate"]
+- !private ["s9EquatableP", "widthAnchor"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "urlQueryAllowed"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "URLRequest"]
+- !private ["s8HashableP", "WKWebView"]
+- !private ["s8HashableP", "WKWebViewConfiguration"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addingPercentEncoding"]
+- !private ["s8HashableP", "constraint"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "heightAnchor"]
+- !private ["s8HashableP", "hideActivityIndicator"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isActive"]
+- !private ["s8HashableP", "load"]
+- !private ["s8HashableP", "locationUrl"]
+- !private ["s8HashableP", "navigationDelegate"]
+- !private ["s8HashableP", "populateWebView"]
+- !private ["s8HashableP", "showActivityIndicator"]
+- !private ["s8HashableP", "showAlert"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s8HashableP", "urlQueryAllowed"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", "webView"]
+- ["s8HashableP", "webViewDidClose"]
+- ["s8HashableP", "webViewWebContentProcessDidTerminate"]
+- !private ["s8HashableP", "widthAnchor"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "addingPercentEncoding"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "addingPercentEncoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "URLRequest"]
+- !private ["So8NSCodingP", "WKWebView"]
+- !private ["So8NSCodingP", "WKWebViewConfiguration"]
+- !private ["So8NSCodingP", "addingPercentEncoding"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "heightAnchor"]
+- !private ["So8NSCodingP", "hideActivityIndicator"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "load"]
+- !private ["So8NSCodingP", "locationUrl"]
+- !private ["So8NSCodingP", "navigationDelegate"]
+- !private ["So8NSCodingP", "populateWebView"]
+- !private ["So8NSCodingP", "showActivityIndicator"]
+- !private ["So8NSCodingP", "showAlert"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "webView"]
+- ["So8NSCodingP", "webViewDidClose"]
+- ["So8NSCodingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So8NSCodingP", "widthAnchor"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "addingPercentEncoding"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "URLRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "WKWebView"]
+- !private ["So26NSExtensionRequestHandlingP", "WKWebViewConfiguration"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "hideActivityIndicator"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "locationUrl"]
+- !private ["So26NSExtensionRequestHandlingP", "populateWebView"]
+- !private ["So26NSExtensionRequestHandlingP", "showActivityIndicator"]
+- !private ["So26NSExtensionRequestHandlingP", "showAlert"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "webView"]
+- ["So26NSExtensionRequestHandlingP", "webViewDidClose"]
+- ["So26NSExtensionRequestHandlingP", "webViewWebContentProcessDidTerminate"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So18NSLayoutConstraintC", "isActive"]
+- !private ["So17NSLayoutDimensionC", "constraint"]
+- !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "WKNavigation"]
+- ["So8NSObjectC", "WKWebView"]
+- !private ["So8NSObjectC", "WKWebViewConfiguration"]
+- !private ["So8NSObjectC", "addingPercentEncoding"]
+- !private ["So8NSObjectC", "constraint"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "heightAnchor"]
+- !private ["So8NSObjectC", "hideActivityIndicator"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isActive"]
+- !private ["So8NSObjectC", "load"]
+- ["So8NSObjectC", "locationUrl"]
+- !private ["So8NSObjectC", "navigationDelegate"]
+- ["So8NSObjectC", "populateWebView"]
+- ["So8NSObjectC", "setupWebViewLayout"]
+- !private ["So8NSObjectC", "showActivityIndicator"]
+- !private ["So8NSObjectC", "showAlert"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectC", "webViewDidClose"]
+- ["So8NSObjectC", "webViewWebContentProcessDidTerminate"]
+- !private ["So8NSObjectC", "widthAnchor"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "URLRequest"]
+- !private ["So16NSObjectProtocolP", "WKWebView"]
+- !private ["So16NSObjectProtocolP", "WKWebViewConfiguration"]
+- !private ["So16NSObjectProtocolP", "addingPercentEncoding"]
+- !private ["So16NSObjectProtocolP", "constraint"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "heightAnchor"]
+- !private ["So16NSObjectProtocolP", "hideActivityIndicator"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isActive"]
+- !private ["So16NSObjectProtocolP", "load"]
+- !private ["So16NSObjectProtocolP", "locationUrl"]
+- !private ["So16NSObjectProtocolP", "navigationDelegate"]
+- !private ["So16NSObjectProtocolP", "populateWebView"]
+- !private ["So16NSObjectProtocolP", "showActivityIndicator"]
+- !private ["So16NSObjectProtocolP", "showAlert"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", "webView"]
+- ["So16NSObjectProtocolP", "webViewDidClose"]
+- ["So16NSObjectProtocolP", "webViewWebContentProcessDidTerminate"]
+- !private ["So16NSObjectProtocolP", "widthAnchor"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "addingPercentEncoding"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "addingPercentEncoding"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "addingPercentEncoding"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "urlQueryAllowed"]
+- !private ["s8SequenceP", "addingPercentEncoding"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "urlQueryAllowed"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "CGRect"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "URL"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "URLRequest"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "WKWebView"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "WKWebViewConfiguration"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "didReceiveMemoryWarning"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "hideActivityIndicator"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "init"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "locationUrl"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "populateWebView"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "showActivityIndicator"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "showAlert"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "view"]
+- !private ["18SiberSuclarTanitim17SlideMenuDelegateP", "viewDidLoad"]
+- ["18SiberSuclarTanitim17SlideMenuDelegateP", "webView"]
+- ["18SiberSuclarTanitim17SlideMenuDelegateP", "webViewDidClose"]
+- ["18SiberSuclarTanitim17SlideMenuDelegateP", "webViewWebContentProcessDidTerminate"]
+- ["18SiberSuclarTanitim17SlideMenuDelegateP", ""]
+- !private ["SS", "addingPercentEncoding"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "addingPercentEncoding"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "heightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "load"]
+- !private ["So29UIAccessibilityIdentificationP", "navigationDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "widthAnchor"]
+- !private ["So12UIAppearanceP", "heightAnchor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "load"]
+- !private ["So12UIAppearanceP", "navigationDelegate"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "widthAnchor"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "URLRequest"]
+- !private ["So21UIAppearanceContainerP", "WKWebView"]
+- !private ["So21UIAppearanceContainerP", "WKWebViewConfiguration"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "heightAnchor"]
+- !private ["So21UIAppearanceContainerP", "hideActivityIndicator"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "load"]
+- !private ["So21UIAppearanceContainerP", "locationUrl"]
+- !private ["So21UIAppearanceContainerP", "navigationDelegate"]
+- !private ["So21UIAppearanceContainerP", "populateWebView"]
+- !private ["So21UIAppearanceContainerP", "showActivityIndicator"]
+- !private ["So21UIAppearanceContainerP", "showAlert"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "webView"]
+- ["So21UIAppearanceContainerP", "webViewDidClose"]
+- ["So21UIAppearanceContainerP", "webViewWebContentProcessDidTerminate"]
+- !private ["So21UIAppearanceContainerP", "widthAnchor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "URLRequest"]
+- !private ["So18UIContentContainerP", "WKWebView"]
+- !private ["So18UIContentContainerP", "WKWebViewConfiguration"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "hideActivityIndicator"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "locationUrl"]
+- !private ["So18UIContentContainerP", "populateWebView"]
+- !private ["So18UIContentContainerP", "showActivityIndicator"]
+- !private ["So18UIContentContainerP", "showAlert"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "webView"]
+- ["So18UIContentContainerP", "webViewDidClose"]
+- ["So18UIContentContainerP", "webViewWebContentProcessDidTerminate"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "heightAnchor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "load"]
+- !private ["So17UICoordinateSpaceP", "navigationDelegate"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So17UICoordinateSpaceP", "widthAnchor"]
+- !private ["So13UIDynamicItemP", "heightAnchor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "load"]
+- !private ["So13UIDynamicItemP", "navigationDelegate"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "widthAnchor"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "URLRequest"]
+- !private ["So18UIFocusEnvironmentP", "WKWebView"]
+- !private ["So18UIFocusEnvironmentP", "WKWebViewConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "heightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "hideActivityIndicator"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "load"]
+- !private ["So18UIFocusEnvironmentP", "locationUrl"]
+- !private ["So18UIFocusEnvironmentP", "navigationDelegate"]
+- !private ["So18UIFocusEnvironmentP", "populateWebView"]
+- !private ["So18UIFocusEnvironmentP", "showActivityIndicator"]
+- !private ["So18UIFocusEnvironmentP", "showAlert"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "webView"]
+- ["So18UIFocusEnvironmentP", "webViewDidClose"]
+- ["So18UIFocusEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- !private ["So18UIFocusEnvironmentP", "widthAnchor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "heightAnchor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "load"]
+- !private ["So11UIFocusItemP", "navigationDelegate"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "widthAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "WKWebView"]
+- !private ["So30UIPasteConfigurationSupportingP", "WKWebViewConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "heightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "hideActivityIndicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "load"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationUrl"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "populateWebView"]
+- !private ["So30UIPasteConfigurationSupportingP", "showActivityIndicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "showAlert"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webView"]
+- ["So30UIPasteConfigurationSupportingP", "webViewDidClose"]
+- ["So30UIPasteConfigurationSupportingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "widthAnchor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLRequest"]
+- ["So11UIResponderC", "WKNavigation"]
+- ["So11UIResponderC", "WKWebView"]
+- !private ["So11UIResponderC", "WKWebViewConfiguration"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "heightAnchor"]
+- !private ["So11UIResponderC", "hideActivityIndicator"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "load"]
+- ["So11UIResponderC", "locationUrl"]
+- !private ["So11UIResponderC", "navigationDelegate"]
+- ["So11UIResponderC", "populateWebView"]
+- ["So11UIResponderC", "setupWebViewLayout"]
+- !private ["So11UIResponderC", "showActivityIndicator"]
+- !private ["So11UIResponderC", "showAlert"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "webView"]
+- ["So11UIResponderC", "webViewDidClose"]
+- ["So11UIResponderC", "webViewWebContentProcessDidTerminate"]
+- !private ["So11UIResponderC", "widthAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "URLRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "WKWebView"]
+- !private ["So30UIResponderStandardEditActionsP", "WKWebViewConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "heightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "hideActivityIndicator"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "load"]
+- !private ["So30UIResponderStandardEditActionsP", "locationUrl"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "populateWebView"]
+- !private ["So30UIResponderStandardEditActionsP", "showActivityIndicator"]
+- !private ["So30UIResponderStandardEditActionsP", "showAlert"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "webView"]
+- ["So30UIResponderStandardEditActionsP", "webViewDidClose"]
+- ["So30UIResponderStandardEditActionsP", "webViewWebContentProcessDidTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "widthAnchor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "URLRequest"]
+- !private ["So16UIStateRestoringP", "WKWebView"]
+- !private ["So16UIStateRestoringP", "WKWebViewConfiguration"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "hideActivityIndicator"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "locationUrl"]
+- !private ["So16UIStateRestoringP", "populateWebView"]
+- !private ["So16UIStateRestoringP", "showActivityIndicator"]
+- !private ["So16UIStateRestoringP", "showAlert"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "webView"]
+- ["So16UIStateRestoringP", "webViewDidClose"]
+- ["So16UIStateRestoringP", "webViewWebContentProcessDidTerminate"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "URLRequest"]
+- !private ["So18UITraitEnvironmentP", "WKWebView"]
+- !private ["So18UITraitEnvironmentP", "WKWebViewConfiguration"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "heightAnchor"]
+- !private ["So18UITraitEnvironmentP", "hideActivityIndicator"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "load"]
+- !private ["So18UITraitEnvironmentP", "locationUrl"]
+- !private ["So18UITraitEnvironmentP", "navigationDelegate"]
+- !private ["So18UITraitEnvironmentP", "populateWebView"]
+- !private ["So18UITraitEnvironmentP", "showActivityIndicator"]
+- !private ["So18UITraitEnvironmentP", "showAlert"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "webView"]
+- ["So18UITraitEnvironmentP", "webViewDidClose"]
+- ["So18UITraitEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- !private ["So18UITraitEnvironmentP", "widthAnchor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "heightAnchor"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "load"]
+- !private ["So6UIViewC", "navigationDelegate"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIViewC", "widthAnchor"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- ["So16UIViewControllerC", "Error"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLRequest"]
+- ["So16UIViewControllerC", "WKNavigation"]
+- ["So16UIViewControllerC", "WKWebView"]
+- !private ["So16UIViewControllerC", "WKWebViewConfiguration"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "hideActivityIndicator"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "locationUrl"]
+- ["So16UIViewControllerC", "populateWebView"]
+- ["So16UIViewControllerC", "setupWebViewLayout"]
+- !private ["So16UIViewControllerC", "showActivityIndicator"]
+- !private ["So16UIViewControllerC", "showAlert"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "webView"]
+- ["So16UIViewControllerC", "webViewDidClose"]
+- ["So16UIViewControllerC", "webViewWebContentProcessDidTerminate"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "addingPercentEncoding"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["9Alamofire21URLRequestConvertibleP", "init"]
+- !private ["So20WKNavigationDelegateP", "CGRect"]
+- !private ["So20WKNavigationDelegateP", "URL"]
+- !private ["So20WKNavigationDelegateP", "URLRequest"]
+- !private ["So20WKNavigationDelegateP", "WKWebView"]
+- !private ["So20WKNavigationDelegateP", "WKWebViewConfiguration"]
+- !private ["So20WKNavigationDelegateP", "hideActivityIndicator"]
+- !private ["So20WKNavigationDelegateP", "locationUrl"]
+- !private ["So20WKNavigationDelegateP", "populateWebView"]
+- !private ["So20WKNavigationDelegateP", "showActivityIndicator"]
+- !private ["So20WKNavigationDelegateP", "showAlert"]
+- !private ["So20WKNavigationDelegateP", "view"]
+- ["So20WKNavigationDelegateP", "webView"]
+- ["So20WKNavigationDelegateP", "webViewDidClose"]
+- ["So20WKNavigationDelegateP", "webViewWebContentProcessDidTerminate"]
+- ["So20WKNavigationDelegateP", ""]
+- !private ["So12WKUIDelegateP", "CGRect"]
+- !private ["So12WKUIDelegateP", "URL"]
+- !private ["So12WKUIDelegateP", "URLRequest"]
+- !private ["So12WKUIDelegateP", "WKWebView"]
+- !private ["So12WKUIDelegateP", "WKWebViewConfiguration"]
+- !private ["So12WKUIDelegateP", "hideActivityIndicator"]
+- !private ["So12WKUIDelegateP", "locationUrl"]
+- !private ["So12WKUIDelegateP", "populateWebView"]
+- !private ["So12WKUIDelegateP", "showActivityIndicator"]
+- !private ["So12WKUIDelegateP", "showAlert"]
+- !private ["So12WKUIDelegateP", "view"]
+- ["So12WKUIDelegateP", "webView"]
+- ["So12WKUIDelegateP", "webViewDidClose"]
+- ["So12WKUIDelegateP", "webViewWebContentProcessDidTerminate"]
+- ["So12WKUIDelegateP", ""]
+- !private ["So9WKWebViewC", "heightAnchor"]
+- !private ["So9WKWebViewC", "init"]
+- !private ["So9WKWebViewC", "load"]
+- !private ["So9WKWebViewC", "navigationDelegate"]
+- !private ["So9WKWebViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So9WKWebViewC", "widthAnchor"]
+- !private ["So22WKWebViewConfigurationC", "init"]
+- !private ["s23_BidirectionalIndexableP", "addingPercentEncoding"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "heightAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "load"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "navigationDelegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "addingPercentEncoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "addingPercentEncoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "addingPercentEncoding"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "addingPercentEncoding"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WKWebView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WKWebViewConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hideActivityIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "load"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "populateWebView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showActivityIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewDidClose"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewWebContentProcessDidTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "widthAnchor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "urlQueryAllowed"]
+- !private ["s26_RangeReplaceableIndexableP", "addingPercentEncoding"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "addingPercentEncoding"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "18SiberSuclarTanitim18BaseViewControllerC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "18SiberSuclarTanitim28EgitimLocationViewControllerC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So17NSLayoutDimensionC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "18SiberSuclarTanitim17SlideMenuDelegateP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "10Foundation10URLRequestV"
+- !private "9Alamofire21URLRequestConvertibleP"
+- "So20WKNavigationDelegateP"
+- "So12WKUIDelegateP"
+- !private "So9WKWebViewC"
+- !private "So22WKWebViewConfigurationC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar-umbrella.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarAppearance.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarScopeHandle.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCell.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDynamicHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarStickyHeader.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCalculator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarTransitionCoordinator.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarExtensions.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarConstants.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionViewLayout.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarHeaderView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarWeekdayView.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationFactory.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationProxy.h"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Tanitim_calisma/SiberSuclarTanitim/DerivedData/SiberSuclarTanitim/Build/Products/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Modules/module.modulemap"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Users/alimurat_mac/Desktop/Program_archive/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2163d26cd4cd78020ec0441a9f0d1fad"

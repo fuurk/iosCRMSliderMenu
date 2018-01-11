@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E50A482006452800907251 /* siberLogoTurn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 23E50A472006452800907251 /* siberLogoTurn.gif */; };
+		23E50A4A2006454500907251 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E50A492006454500907251 /* Swift+Gif.swift */; };
+		753A55C31BB073E900254F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55C21BB073E900254F27 /* AppDelegate.swift */; };
+		753A55C81BB073E900254F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753A55C61BB073E900254F27 /* Main.storyboard */; };
+		753A55CA1BB073E900254F27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753A55C91BB073E900254F27 /* Images.xcassets */; };
+		753A55CD1BB073E900254F27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753A55CB1BB073E900254F27 /* LaunchScreen.xib */; };
+		753A55E31BB0753B00254F27 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55E21BB0753B00254F27 /* MenuViewController.swift */; };
+		753A55E51BB0755100254F27 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55E41BB0755100254F27 /* BaseViewController.swift */; };
+		756755446319D4911A41AB7B /* Pods_SiberSuclarTanitim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBBF52E3C5C2A1CAFDA28F2 /* Pods_SiberSuclarTanitim.framework */; };
+		C00245011FC309600005D695 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00245001FC309600005D695 /* ActivitiesViewController.swift */; };
+		C00245031FC417490005D695 /* TrainingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00245021FC417490005D695 /* TrainingsViewController.swift */; };
+		C00245051FC417700005D695 /* EventsCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00245041FC417700005D695 /* EventsCalendarViewController.swift */; };
+		C00245091FC417A20005D695 /* MealMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00245081FC417A20005D695 /* MealMenuViewController.swift */; };
+		C002450B1FC417E70005D695 /* BusRoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C002450A1FC417E70005D695 /* BusRoutesViewController.swift */; };
+		C00245101FC41C770005D695 /* RehberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C002450F1FC41C770005D695 /* RehberViewController.swift */; };
+		C00245131FC569C70005D695 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00245121FC569C70005D695 /* ContactCell.swift */; };
+		C00245151FCBEFA40005D695 /* RehberCellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00245141FCBEFA40005D695 /* RehberCellDetailViewController.swift */; };
+		C05E63A31FED472900A1973B /* TrainingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05E63A21FED472900A1973B /* TrainingCell.swift */; };
+		C06F17911FD7D9F70035BC46 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F17951FD7D9F70035BC46 /* Alamofire.framework */; };
+		C06F17921FD7D9F70035BC46 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F17961FD7D9F70035BC46 /* AlamofireImage.framework */; };
+		C06F17931FD7D9F70035BC46 /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F17971FD7D9F70035BC46 /* FSCalendar.framework */; };
+		C06F17941FD7D9F70035BC46 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F17981FD7D9F70035BC46 /* SwiftyJSON.framework */; };
+		C06F179D1FDABBE90035BC46 /* Merkezler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F179C1FDABBE90035BC46 /* Merkezler.swift */; };
+		C06F17A31FDABC1B0035BC46 /* ModernSearchBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F179E1FDABC1B0035BC46 /* ModernSearchBarModel.swift */; };
+		C06F17A41FDABC1B0035BC46 /* ModernSearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F179F1FDABC1B0035BC46 /* ModernSearchBarCell.swift */; };
+		C06F17A51FDABC1B0035BC46 /* ModernSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F17A01FDABC1B0035BC46 /* ModernSearchBar.swift */; };
+		C06F17A61FDABC1B0035BC46 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F17A11FDABC1B0035BC46 /* Weather.swift */; };
+		C06F17A71FDABC1B0035BC46 /* ModernSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F17A21FDABC1B0035BC46 /* ModernSearchBarDelegate.swift */; };
+		C06F17A91FDABC320035BC46 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F17A81FDABC320035BC46 /* WeatherTableViewController.swift */; };
+		C06F17AB1FDAC1C20035BC46 /* ModernSearchBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F17AA1FDAC1C20035BC46 /* ModernSearchBarIcon.swift */; };
+		C08315C01FD55CFF001FF4A6 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08315BF1FD55CFF001FF4A6 /* LoginService.swift */; };
+		C08315C41FD56A0B001FF4A6 /* HTTPConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08315C31FD56A0B001FF4A6 /* HTTPConnectionHandler.swift */; };
+		C0B350C620010B95004D6ADA /* EgitimLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B350C520010B95004D6ADA /* EgitimLocationViewController.swift */; };
+		C0C46BC91FE10C8200D04EAC /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C46BC81FE10C8200D04EAC /* MealCell.swift */; };
+		C0C46BCB1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C46BCA1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift */; };
+		C0C7346C200602C900F1A33A /* TrainingPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7346B200602C900F1A33A /* TrainingPopUpViewController.swift */; };
+		C0C7346E2006060E00F1A33A /* NewsAnnouncements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7346D2006060E00F1A33A /* NewsAnnouncements.swift */; };
+		C0CAB2801FCC4EAA00D9D795 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAB27F1FCC4EAA00D9D795 /* NewsCell.swift */; };
+		C0CAB28E1FCD7C4500D9D795 /* AnnouncementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAB28D1FCD7C4500D9D795 /* AnnouncementCell.swift */; };
+		C0CAB2901FCD9CDF00D9D795 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAB28F1FCD9CDF00D9D795 /* NewsDetailViewController.swift */; };
+		C0CAB2921FCE964600D9D795 /* AnnouncementPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAB2911FCE964600D9D795 /* AnnouncementPopUpViewController.swift */; };
+		C0CAB2941FCEA63200D9D795 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAB2931FCEA63200D9D795 /* ActivityCell.swift */; };
+		C0CAB2961FD0196600D9D795 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAB2951FD0196600D9D795 /* EventCell.swift */; };
+		C0CAB29F1FD54B0400D9D795 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAB29E1FD54B0400D9D795 /* LoginViewController.swift */; };
+		C6EEF9F81CB7E4E000A3DC6D /* DepartmentIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF9F71CB7E4E000A3DC6D /* DepartmentIntroduction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23E50A472006452800907251 /* siberLogoTurn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = siberLogoTurn.gif; sourceTree = "<group>"; };
+		23E50A492006454500907251 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		753A55BD1BB073E900254F27 /* SiberSuclarTanitim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiberSuclarTanitim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		753A55C11BB073E900254F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753A55C21BB073E900254F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		753A55C71BB073E900254F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		753A55C91BB073E900254F27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		753A55CC1BB073E900254F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		753A55E21BB0753B00254F27 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		753A55E41BB0755100254F27 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8649D3B7E5F7ED2C8A9E2EB7 /* Pods-SiberSuclarTanitim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiberSuclarTanitim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiberSuclarTanitim/Pods-SiberSuclarTanitim.debug.xcconfig"; sourceTree = "<group>"; };
+		91D84505F0B80BE2F391460F /* Pods-SiberSuclarTanitim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiberSuclarTanitim.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiberSuclarTanitim/Pods-SiberSuclarTanitim.release.xcconfig"; sourceTree = "<group>"; };
+		C00245001FC309600005D695 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		C00245021FC417490005D695 /* TrainingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsViewController.swift; sourceTree = "<group>"; };
+		C00245041FC417700005D695 /* EventsCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCalendarViewController.swift; sourceTree = "<group>"; };
+		C00245081FC417A20005D695 /* MealMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuViewController.swift; sourceTree = "<group>"; };
+		C002450A1FC417E70005D695 /* BusRoutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRoutesViewController.swift; sourceTree = "<group>"; };
+		C002450F1FC41C770005D695 /* RehberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberViewController.swift; sourceTree = "<group>"; };
+		C00245121FC569C70005D695 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		C00245141FCBEFA40005D695 /* RehberCellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberCellDetailViewController.swift; sourceTree = "<group>"; };
+		C05E63A21FED472900A1973B /* TrainingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCell.swift; sourceTree = "<group>"; };
+		C06F178A1FD7D4FC0035BC46 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F178E1FD7D5040035BC46 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F178F1FD7D5040035BC46 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F17901FD7D5040035BC46 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F17951FD7D9F70035BC46 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F17961FD7D9F70035BC46 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F17971FD7D9F70035BC46 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F17981FD7D9F70035BC46 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06F179C1FDABBE90035BC46 /* Merkezler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merkezler.swift; sourceTree = "<group>"; };
+		C06F179E1FDABC1B0035BC46 /* ModernSearchBarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernSearchBarModel.swift; sourceTree = "<group>"; };
+		C06F179F1FDABC1B0035BC46 /* ModernSearchBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernSearchBarCell.swift; sourceTree = "<group>"; };
+		C06F17A01FDABC1B0035BC46 /* ModernSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernSearchBar.swift; sourceTree = "<group>"; };
+		C06F17A11FDABC1B0035BC46 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C06F17A21FDABC1B0035BC46 /* ModernSearchBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernSearchBarDelegate.swift; sourceTree = "<group>"; };
+		C06F17A81FDABC320035BC46 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
+		C06F17AA1FDAC1C20035BC46 /* ModernSearchBarIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernSearchBarIcon.swift; sourceTree = "<group>"; };
+		C08315BF1FD55CFF001FF4A6 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		C08315C31FD56A0B001FF4A6 /* HTTPConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConnectionHandler.swift; sourceTree = "<group>"; };
+		C0B350C520010B95004D6ADA /* EgitimLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgitimLocationViewController.swift; sourceTree = "<group>"; };
+		C0C46BC81FE10C8200D04EAC /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		C0C46BCA1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionAndRequestViewController.swift; sourceTree = "<group>"; };
+		C0C7346B200602C900F1A33A /* TrainingPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingPopUpViewController.swift; sourceTree = "<group>"; };
+		C0C7346D2006060E00F1A33A /* NewsAnnouncements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsAnnouncements.swift; sourceTree = "<group>"; };
+		C0CAB27F1FCC4EAA00D9D795 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		C0CAB28D1FCD7C4500D9D795 /* AnnouncementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementCell.swift; sourceTree = "<group>"; };
+		C0CAB28F1FCD9CDF00D9D795 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		C0CAB2911FCE964600D9D795 /* AnnouncementPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementPopUpViewController.swift; sourceTree = "<group>"; };
+		C0CAB2931FCEA63200D9D795 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		C0CAB2951FD0196600D9D795 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		C0CAB29E1FD54B0400D9D795 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C6EEF9F71CB7E4E000A3DC6D /* DepartmentIntroduction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentIntroduction.swift; sourceTree = "<group>"; };
+		CEBBF52E3C5C2A1CAFDA28F2 /* Pods_SiberSuclarTanitim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiberSuclarTanitim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753A55BA1BB073E900254F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06F17911FD7D9F70035BC46 /* Alamofire.framework in Frameworks */,
+				C06F17921FD7D9F70035BC46 /* AlamofireImage.framework in Frameworks */,
+				C06F17931FD7D9F70035BC46 /* FSCalendar.framework in Frameworks */,
+				C06F17941FD7D9F70035BC46 /* SwiftyJSON.framework in Frameworks */,
+				756755446319D4911A41AB7B /* Pods_SiberSuclarTanitim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CF67D81F8C16BB7501C3E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06F17951FD7D9F70035BC46 /* Alamofire.framework */,
+				C06F17961FD7D9F70035BC46 /* AlamofireImage.framework */,
+				C06F17971FD7D9F70035BC46 /* FSCalendar.framework */,
+				C06F17981FD7D9F70035BC46 /* SwiftyJSON.framework */,
+				C06F178E1FD7D5040035BC46 /* Alamofire.framework */,
+				C06F178F1FD7D5040035BC46 /* AlamofireImage.framework */,
+				C06F17901FD7D5040035BC46 /* FSCalendar.framework */,
+				C06F178A1FD7D4FC0035BC46 /* SwiftyJSON.framework */,
+				CEBBF52E3C5C2A1CAFDA28F2 /* Pods_SiberSuclarTanitim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		753A55B41BB073E900254F27 = {
+			isa = PBXGroup;
+			children = (
+				753A55BF1BB073E900254F27 /* SiberSuclarTanitim */,
+				753A55BE1BB073E900254F27 /* Products */,
+				B53E39ECFB1312C170404BC7 /* Pods */,
+				6CF67D81F8C16BB7501C3E52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		753A55BE1BB073E900254F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753A55BD1BB073E900254F27 /* SiberSuclarTanitim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753A55BF1BB073E900254F27 /* SiberSuclarTanitim */ = {
+			isa = PBXGroup;
+			children = (
+				C06F179B1FDABBAE0035BC46 /* weather */,
+				C08315BE1FD55CED001FF4A6 /* reusables */,
+				C00245111FC569B30005D695 /* cell */,
+				C002450E1FC41C150005D695 /* Views */,
+				753A55C21BB073E900254F27 /* AppDelegate.swift */,
+				753A55E41BB0755100254F27 /* BaseViewController.swift */,
+				753A55E21BB0753B00254F27 /* MenuViewController.swift */,
+				753A55C61BB073E900254F27 /* Main.storyboard */,
+				753A55C91BB073E900254F27 /* Images.xcassets */,
+				23E50A492006454500907251 /* Swift+Gif.swift */,
+				23E50A472006452800907251 /* siberLogoTurn.gif */,
+				753A55CB1BB073E900254F27 /* LaunchScreen.xib */,
+				753A55C01BB073E900254F27 /* Supporting Files */,
+			);
+			path = SiberSuclarTanitim;
+			sourceTree = "<group>";
+		};
+		753A55C01BB073E900254F27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				753A55C11BB073E900254F27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53E39ECFB1312C170404BC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8649D3B7E5F7ED2C8A9E2EB7 /* Pods-SiberSuclarTanitim.debug.xcconfig */,
+				91D84505F0B80BE2F391460F /* Pods-SiberSuclarTanitim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C002450E1FC41C150005D695 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6EEF9F71CB7E4E000A3DC6D /* DepartmentIntroduction.swift */,
+				C00245001FC309600005D695 /* ActivitiesViewController.swift */,
+				C06F17A81FDABC320035BC46 /* WeatherTableViewController.swift */,
+				C0C7346D2006060E00F1A33A /* NewsAnnouncements.swift */,
+				C00245021FC417490005D695 /* TrainingsViewController.swift */,
+				C00245041FC417700005D695 /* EventsCalendarViewController.swift */,
+				C00245081FC417A20005D695 /* MealMenuViewController.swift */,
+				C002450A1FC417E70005D695 /* BusRoutesViewController.swift */,
+				C002450F1FC41C770005D695 /* RehberViewController.swift */,
+				C00245141FCBEFA40005D695 /* RehberCellDetailViewController.swift */,
+				C0CAB28F1FCD9CDF00D9D795 /* NewsDetailViewController.swift */,
+				C0CAB2911FCE964600D9D795 /* AnnouncementPopUpViewController.swift */,
+				C0CAB29E1FD54B0400D9D795 /* LoginViewController.swift */,
+				C0C46BCA1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift */,
+				C0C7346B200602C900F1A33A /* TrainingPopUpViewController.swift */,
+				C0B350C520010B95004D6ADA /* EgitimLocationViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C00245111FC569B30005D695 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C00245121FC569C70005D695 /* ContactCell.swift */,
+				C0CAB27F1FCC4EAA00D9D795 /* NewsCell.swift */,
+				C0CAB28D1FCD7C4500D9D795 /* AnnouncementCell.swift */,
+				C0CAB2931FCEA63200D9D795 /* ActivityCell.swift */,
+				C0CAB2951FD0196600D9D795 /* EventCell.swift */,
+				C0C46BC81FE10C8200D04EAC /* MealCell.swift */,
+				C05E63A21FED472900A1973B /* TrainingCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		C06F179B1FDABBAE0035BC46 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				C06F17AA1FDAC1C20035BC46 /* ModernSearchBarIcon.swift */,
+				C06F17A01FDABC1B0035BC46 /* ModernSearchBar.swift */,
+				C06F179F1FDABC1B0035BC46 /* ModernSearchBarCell.swift */,
+				C06F17A21FDABC1B0035BC46 /* ModernSearchBarDelegate.swift */,
+				C06F179E1FDABC1B0035BC46 /* ModernSearchBarModel.swift */,
+				C06F17A11FDABC1B0035BC46 /* Weather.swift */,
+				C06F179C1FDABBE90035BC46 /* Merkezler.swift */,
+			);
+			name = weather;
+			sourceTree = "<group>";
+		};
+		C08315BE1FD55CED001FF4A6 /* reusables */ = {
+			isa = PBXGroup;
+			children = (
+				C08315BF1FD55CFF001FF4A6 /* LoginService.swift */,
+				C08315C31FD56A0B001FF4A6 /* HTTPConnectionHandler.swift */,
+			);
+			name = reusables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753A55BC1BB073E900254F27 /* SiberSuclarTanitim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "SiberSuclarTanitim" */;
+			buildPhases = (
+				C3F4030A67FC163099978076 /* [CP] Check Pods Manifest.lock */,
+				753A55B91BB073E900254F27 /* Sources */,
+				753A55BA1BB073E900254F27 /* Frameworks */,
+				753A55BB1BB073E900254F27 /* Resources */,
+				E6101077EB37425F7631C0F3 /* [CP] Embed Pods Frameworks */,
+				CB63B391AA8CB9BAF1E4A535 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiberSuclarTanitim;
+			productName = AKSwiftSlideMenu;
+			productReference = 753A55BD1BB073E900254F27 /* SiberSuclarTanitim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753A55B51BB073E900254F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Kode;
+				TargetAttributes = {
+					753A55BC1BB073E900254F27 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 34D4L7V3KA;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 753A55B81BB073E900254F27 /* Build configuration list for PBXProject "SiberSuclarTanitim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 753A55B41BB073E900254F27;
+			productRefGroup = 753A55BE1BB073E900254F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753A55BC1BB073E900254F27 /* SiberSuclarTanitim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753A55BB1BB073E900254F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E50A482006452800907251 /* siberLogoTurn.gif in Resources */,
+				753A55C81BB073E900254F27 /* Main.storyboard in Resources */,
+				753A55CD1BB073E900254F27 /* LaunchScreen.xib in Resources */,
+				753A55CA1BB073E900254F27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3F4030A67FC163099978076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiberSuclarTanitim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB63B391AA8CB9BAF1E4A535 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiberSuclarTanitim/Pods-SiberSuclarTanitim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6101077EB37425F7631C0F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SiberSuclarTanitim/Pods-SiberSuclarTanitim-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiberSuclarTanitim/Pods-SiberSuclarTanitim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753A55B91BB073E900254F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C7346E2006060E00F1A33A /* NewsAnnouncements.swift in Sources */,
+				C0CAB29F1FD54B0400D9D795 /* LoginViewController.swift in Sources */,
+				C00245131FC569C70005D695 /* ContactCell.swift in Sources */,
+				C06F17A41FDABC1B0035BC46 /* ModernSearchBarCell.swift in Sources */,
+				23E50A4A2006454500907251 /* Swift+Gif.swift in Sources */,
+				C0CAB2941FCEA63200D9D795 /* ActivityCell.swift in Sources */,
+				C06F179D1FDABBE90035BC46 /* Merkezler.swift in Sources */,
+				C0CAB2801FCC4EAA00D9D795 /* NewsCell.swift in Sources */,
+				C06F17A31FDABC1B0035BC46 /* ModernSearchBarModel.swift in Sources */,
+				753A55E51BB0755100254F27 /* BaseViewController.swift in Sources */,
+				C0C7346C200602C900F1A33A /* TrainingPopUpViewController.swift in Sources */,
+				C0CAB2901FCD9CDF00D9D795 /* NewsDetailViewController.swift in Sources */,
+				C00245031FC417490005D695 /* TrainingsViewController.swift in Sources */,
+				C6EEF9F81CB7E4E000A3DC6D /* DepartmentIntroduction.swift in Sources */,
+				C0CAB2961FD0196600D9D795 /* EventCell.swift in Sources */,
+				753A55E31BB0753B00254F27 /* MenuViewController.swift in Sources */,
+				C002450B1FC417E70005D695 /* BusRoutesViewController.swift in Sources */,
+				C0CAB2921FCE964600D9D795 /* AnnouncementPopUpViewController.swift in Sources */,
+				C06F17A91FDABC320035BC46 /* WeatherTableViewController.swift in Sources */,
+				C08315C41FD56A0B001FF4A6 /* HTTPConnectionHandler.swift in Sources */,
+				C0B350C620010B95004D6ADA /* EgitimLocationViewController.swift in Sources */,
+				C06F17A71FDABC1B0035BC46 /* ModernSearchBarDelegate.swift in Sources */,
+				C0C46BC91FE10C8200D04EAC /* MealCell.swift in Sources */,
+				C00245091FC417A20005D695 /* MealMenuViewController.swift in Sources */,
+				C0C46BCB1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift in Sources */,
+				C0CAB28E1FCD7C4500D9D795 /* AnnouncementCell.swift in Sources */,
+				C00245101FC41C770005D695 /* RehberViewController.swift in Sources */,
+				C06F17A61FDABC1B0035BC46 /* Weather.swift in Sources */,
+				C00245051FC417700005D695 /* EventsCalendarViewController.swift in Sources */,
+				C06F17AB1FDAC1C20035BC46 /* ModernSearchBarIcon.swift in Sources */,
+				C05E63A31FED472900A1973B /* TrainingCell.swift in Sources */,
+				C08315C01FD55CFF001FF4A6 /* LoginService.swift in Sources */,
+				C00245011FC309600005D695 /* ActivitiesViewController.swift in Sources */,
+				C06F17A51FDABC1B0035BC46 /* ModernSearchBar.swift in Sources */,
+				753A55C31BB073E900254F27 /* AppDelegate.swift in Sources */,
+				C00245151FCBEFA40005D695 /* RehberCellDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		753A55C61BB073E900254F27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753A55C71BB073E900254F27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		753A55CB1BB073E900254F27 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753A55CC1BB073E900254F27 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		753A55DA1BB073E900254F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+			};
+			name = Debug;
+		};
+		753A55DB1BB073E900254F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753A55DD1BB073E900254F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8649D3B7E5F7ED2C8A9E2EB7 /* Pods-SiberSuclarTanitim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34D4L7V3KA;
+				INFOPLIST_FILE = "$(SRCROOT)/SiberSuclarTanitim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EGM.SiberSuclarTanitim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		753A55DE1BB073E900254F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D84505F0B80BE2F391460F /* Pods-SiberSuclarTanitim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34D4L7V3KA;
+				INFOPLIST_FILE = "$(SRCROOT)/SiberSuclarTanitim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EGM.SiberSuclarTanitim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753A55B81BB073E900254F27 /* Build configuration list for PBXProject "SiberSuclarTanitim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753A55DA1BB073E900254F27 /* Debug */,
+				753A55DB1BB073E900254F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "SiberSuclarTanitim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753A55DD1BB073E900254F27 /* Debug */,
+				753A55DE1BB073E900254F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 753A55B51BB073E900254F27 /* Project object */;
+}
