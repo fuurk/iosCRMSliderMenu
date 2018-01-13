@@ -11,6 +11,7 @@ import SwiftyJSON
 
 class LoginViewController: BaseViewController, UITextFieldDelegate {
     
+    @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var cyberEmblem: UIImageView!
     @IBOutlet weak var passwordField: UITextField!
@@ -81,38 +82,42 @@ class LoginViewController: BaseViewController, UITextFieldDelegate {
     func loginLayout()
     {
         cyberEmblem.translatesAutoresizingMaskIntoConstraints = false
-        userNameLabel.translatesAutoresizingMaskIntoConstraints = false
-        loginPasswordLabel.translatesAutoresizingMaskIntoConstraints = false
         userNameField.translatesAutoresizingMaskIntoConstraints = false
         passwordField.translatesAutoresizingMaskIntoConstraints = false
         loginButton.translatesAutoresizingMaskIntoConstraints = false
+        userNameLabel.translatesAutoresizingMaskIntoConstraints = false
+        passwordLabel.translatesAutoresizingMaskIntoConstraints = false
         
         cyberEmblem.widthAnchor.constraint(equalToConstant: 150).isActive = true
         cyberEmblem.heightAnchor.constraint(equalToConstant: 150).isActive = true
         cyberEmblem.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         cyberEmblem.topAnchor.constraint(equalTo: view.topAnchor, constant: 80).isActive = true
-       
-        userNameLabel.centerYAnchor.constraint(equalTo: cyberEmblem.bottomAnchor, constant: 20).isActive = true
-        userNameLabel.leftAnchor.constraint(equalTo: userNameField.leftAnchor).isActive = true
         
         userNameField.widthAnchor.constraint(equalToConstant: 277).isActive = true
-        userNameField.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        userNameField.heightAnchor.constraint(equalToConstant: 50).isActive = true
         userNameField.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        userNameField.topAnchor.constraint(equalTo: userNameLabel.bottomAnchor).isActive = true
+        userNameField.topAnchor.constraint(equalTo: cyberEmblem.bottomAnchor, constant: 16).isActive = true
         
-        loginPasswordLabel.centerYAnchor.constraint(equalTo: userNameField.bottomAnchor, constant: 20).isActive = true
-        loginPasswordLabel.leftAnchor.constraint(equalTo: passwordField.leftAnchor).isActive = true
+        userNameLabel.widthAnchor.constraint(equalToConstant: 66).isActive = true
+        userNameLabel.heightAnchor.constraint(equalToConstant: 21).isActive = true
+        userNameLabel.leftAnchor.constraint(equalTo: userNameField.leftAnchor, constant: 5).isActive = true
+        userNameLabel.topAnchor.constraint(equalTo: userNameField.topAnchor).isActive = true
         
         passwordField.widthAnchor.constraint(equalToConstant: 277).isActive = true
-        passwordField.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        passwordField.heightAnchor.constraint(equalToConstant: 50).isActive = true
         passwordField.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        passwordField.topAnchor.constraint(equalTo: loginPasswordLabel.bottomAnchor).isActive = true
-        
+        passwordField.topAnchor.constraint(equalTo: userNameField.bottomAnchor, constant: 8).isActive = true
+            
+        passwordLabel.widthAnchor.constraint(equalToConstant: 66).isActive = true
+        passwordLabel.heightAnchor.constraint(equalToConstant: 21).isActive = true
+        passwordLabel.leftAnchor.constraint(equalTo: passwordField.leftAnchor, constant: 5).isActive = true
+        passwordLabel.topAnchor.constraint(equalTo: passwordField.topAnchor).isActive = true
+            
         loginButton.widthAnchor.constraint(equalToConstant: 277).isActive = true
         loginButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
         loginButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        loginButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 20).isActive = true
-        
+        loginButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 8).isActive = true
+
     }
     
     

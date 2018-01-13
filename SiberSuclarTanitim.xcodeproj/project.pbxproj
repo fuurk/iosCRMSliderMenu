@@ -39,6 +39,7 @@
 		C06F17AB1FDAC1C20035BC46 /* ModernSearchBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F17AA1FDAC1C20035BC46 /* ModernSearchBarIcon.swift */; };
 		C08315C01FD55CFF001FF4A6 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08315BF1FD55CFF001FF4A6 /* LoginService.swift */; };
 		C08315C41FD56A0B001FF4A6 /* HTTPConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08315C31FD56A0B001FF4A6 /* HTTPConnectionHandler.swift */; };
+		C09B3437200A265300FF5ED8 /* ReusableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09B3436200A265300FF5ED8 /* ReusableTextField.swift */; };
 		C0B350C620010B95004D6ADA /* EgitimLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B350C520010B95004D6ADA /* EgitimLocationViewController.swift */; };
 		C0C46BC91FE10C8200D04EAC /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C46BC81FE10C8200D04EAC /* MealCell.swift */; };
 		C0C46BCB1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C46BCA1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift */; };
@@ -94,6 +95,7 @@
 		C06F17AA1FDAC1C20035BC46 /* ModernSearchBarIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernSearchBarIcon.swift; sourceTree = "<group>"; };
 		C08315BF1FD55CFF001FF4A6 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		C08315C31FD56A0B001FF4A6 /* HTTPConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConnectionHandler.swift; sourceTree = "<group>"; };
+		C09B3436200A265300FF5ED8 /* ReusableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTextField.swift; sourceTree = "<group>"; };
 		C0B350C520010B95004D6ADA /* EgitimLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgitimLocationViewController.swift; sourceTree = "<group>"; };
 		C0C46BC81FE10C8200D04EAC /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
 		C0C46BCA1FE2B15700D04EAC /* SuggestionAndRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionAndRequestViewController.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 			children = (
 				C08315BF1FD55CFF001FF4A6 /* LoginService.swift */,
 				C08315C31FD56A0B001FF4A6 /* HTTPConnectionHandler.swift */,
+				C09B3436200A265300FF5ED8 /* ReusableTextField.swift */,
 			);
 			name = reusables;
 			sourceTree = "<group>";
@@ -293,7 +296,7 @@
 				TargetAttributes = {
 					753A55BC1BB073E900254F27 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 34D4L7V3KA;
+						DevelopmentTeam = BTF93SD4FF;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -414,6 +417,7 @@
 				C002450B1FC417E70005D695 /* BusRoutesViewController.swift in Sources */,
 				C0CAB2921FCE964600D9D795 /* AnnouncementPopUpViewController.swift in Sources */,
 				C06F17A91FDABC320035BC46 /* WeatherTableViewController.swift in Sources */,
+				C09B3437200A265300FF5ED8 /* ReusableTextField.swift in Sources */,
 				C08315C41FD56A0B001FF4A6 /* HTTPConnectionHandler.swift in Sources */,
 				C0B350C620010B95004D6ADA /* EgitimLocationViewController.swift in Sources */,
 				C06F17A71FDABC1B0035BC46 /* ModernSearchBarDelegate.swift in Sources */,
@@ -561,7 +565,7 @@
 			baseConfigurationReference = 8649D3B7E5F7ED2C8A9E2EB7 /* Pods-SiberSuclarTanitim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34D4L7V3KA;
+				DEVELOPMENT_TEAM = BTF93SD4FF;
 				INFOPLIST_FILE = "$(SRCROOT)/SiberSuclarTanitim/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -577,7 +581,7 @@
 			baseConfigurationReference = 91D84505F0B80BE2F391460F /* Pods-SiberSuclarTanitim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34D4L7V3KA;
+				DEVELOPMENT_TEAM = BTF93SD4FF;
 				INFOPLIST_FILE = "$(SRCROOT)/SiberSuclarTanitim/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
