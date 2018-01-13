@@ -146,21 +146,11 @@
                     <connections>
                         <outlet property="introductionEmblem" destination="6PX-eu-MUN" id="9IZ-rL-KIj"/>
                         <outlet property="introductionText" destination="nDf-aG-o1U" id="YHl-wX-Bj4"/>
-                        <segue destination="khG-SL-0rk" kind="show" identifier="pushToPlay" id="WvG-AQ-ekI"/>
-                        <segue destination="3YP-Ei-Piq" kind="show" id="rPZ-mB-Nw1"/>
-                        <segue destination="AVZ-jb-8p5" kind="show" id="9gP-wb-73h"/>
-                        <segue destination="ufn-4s-qbF" kind="show" id="oCQ-zm-jzm"/>
-                        <segue destination="DEs-5s-jbX" kind="show" id="8jf-j8-ams"/>
-                        <segue destination="ajD-Hj-1ZK" kind="show" id="KeI-rs-miX"/>
-                        <segue destination="TKJ-Bq-dUj" kind="show" id="D3j-YM-e0E"/>
-                        <segue destination="rmE-Uy-YZ2" kind="show" id="X2U-Fv-c2T"/>
-                        <segue destination="jtA-wj-5KG" kind="show" id="5gB-sF-0e0"/>
-                        <segue destination="lL5-v3-MGa" kind="show" id="rSJ-iN-TlP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1037.5999999999999" y="-12.143928035982009"/>
+            <point key="canvasLocation" x="1938" y="-421"/>
         </scene>
         <!--Haber Detay-->
         <scene sceneID="9NV-uN-DPn">
@@ -514,11 +504,21 @@
                         <outlet property="newsCollectionView" destination="IbR-rf-r9s" id="g0S-88-Vv4"/>
                         <outlet property="newsImage" destination="FF4-6s-ZEP" id="Qe6-mi-oTP"/>
                         <segue destination="Cip-MI-Asd" kind="show" id="9Up-cG-y5S"/>
+                        <segue destination="vXZ-lx-hvc" kind="show" id="AXR-su-cAd"/>
+                        <segue destination="TKJ-Bq-dUj" kind="show" id="ZGZ-4o-NVc"/>
+                        <segue destination="DEs-5s-jbX" kind="show" id="zqi-q5-r0g"/>
+                        <segue destination="3YP-Ei-Piq" kind="show" id="I3n-UW-R1N"/>
+                        <segue destination="AVZ-jb-8p5" kind="show" id="l6P-O5-wuW"/>
+                        <segue destination="ajD-Hj-1ZK" kind="show" id="d9E-kJ-h4E"/>
+                        <segue destination="ufn-4s-qbF" kind="show" id="cJm-tn-w9f"/>
+                        <segue destination="jtA-wj-5KG" kind="show" id="zCv-Lj-j81"/>
+                        <segue destination="rmE-Uy-YZ2" kind="show" id="jXZ-pO-xxg"/>
+                        <segue destination="lL5-v3-MGa" kind="show" id="23j-F0-pdV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmn-PL-HS6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1861.5999999999999" y="-348.57571214392806"/>
+            <point key="canvasLocation" x="906" y="-58"/>
         </scene>
         <!--Egitimler-->
         <scene sceneID="lTl-0y-o5B">
@@ -627,7 +627,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="YTy-Re-Zmr"/>
+                        <segue destination="khG-SL-0rk" kind="relationship" relationship="rootViewController" id="cKR-NG-f1D"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfU-3W-Qcb" userLabel="First Responder" sceneMemberID="firstResponder"/>

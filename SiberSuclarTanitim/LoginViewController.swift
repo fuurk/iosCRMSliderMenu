@@ -63,7 +63,7 @@ class LoginViewController: BaseViewController, UITextFieldDelegate {
                 let res = JSON(result!)
                 if res != JSON.null && res["isSuccess"] == true {
                     self.setCredentialsForAutoLogin(name: self.userNameField.text!, password: self.passwordField.text!, isLoggedIn: true)
-                    self.openViewControllerBasedOnIdentifier("BaskanlikTanitim")
+                    self.openViewControllerBasedOnIdentifier("DuyurularHaberler")
                 }
                 else{
                     self.showAlert(title: "Uyarı", text: "Kullanıcı adı veya şifre hatalı.")

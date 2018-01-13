@@ -22,8 +22,9 @@ class DepartmentIntroductionViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loginControl()
-        addSlideMenuButton() // Since this VC is always on top of VC stack, slide menu button should be in this VC.
-        checkIfUserIsLoggedIn() //Since it is first VC that should be loaded, login control is made here.
+        //addSlideMenuButton() // Since this VC is always on top of VC stack, slide menu button should be in this VC.
+        populateView()
+        //checkIfUserIsLoggedIn() //Since it is first VC that should be loaded, login control is made here.
         DepartmentIntroduction()
     }
 

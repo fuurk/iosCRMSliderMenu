@@ -41,10 +41,9 @@ class NewsAnnouncements: BaseViewController, UICollectionViewDataSource, UIColle
         announcementsTableView.delegate = self
         announcementsTableView.dataSource = self
         newsCollectionView.isPagingEnabled = true
+        addSlideMenuButton()
         autoLayoutForCollectionView()
-        populateNews()
-        populateAnnouncements()
-        setupNewsCollection()
+        checkIfUserIsLoggedInAndPopulateView()
     }
     
     
@@ -186,6 +185,17 @@ class NewsAnnouncements: BaseViewController, UICollectionViewDataSource, UIColle
                 }
             }
         })
+    }
+    
+    func checkIfUserIsLoggedInAndPopulateView(){
+        if UserDefaults.standard.value(forKey: "isUserActive") as? Bool == false {
+            self.openViewControllerBasedOnIdentifier("girisEkrani")
+        }
+        else {
+            populateNews()
+            populateAnnouncements()
+            setupNewsCollection()
+        }
     }
 
     //MARK: Autolayout
